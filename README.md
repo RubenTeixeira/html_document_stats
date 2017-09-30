@@ -4,10 +4,12 @@ Esta solução, foi desenvolvida e testada utilizando Node.js v6.10.0.
 Para utilizar, descarregar o ficheiro challenge_accepted.tar.gz, descompactar e executar:
 
 ```
-wget asfasfa
-tar zxvf challenge_accepted.tar.gz
+tar zxvf jscrambler_challenge_accepted.tar.gz
+cd jscrambler_challenge_accepted/
 node app.js HOST [FILENAME]
 ```
+
+## Descrição da solução
 
 Sendo que um dos requisitos seria a utilização de ES6, utilizou-se o paradigma de programação orientada ao objecto, pelo
  que o modelo de domínio representativo das classes utilizadas se segue:
@@ -31,7 +33,11 @@ atravessada.
 Para assegurar a correção da solução foram criados testes, abrangendo os algoritmos que ao *parsing* de HTML dizem
 respeito.
 Não foram realizados testes às funcionalidades de apresentação de resultados.
+Para realizar os testes:
 
+````
+npm test
+````
 
 Exercício Prático - Jscrambler
 ==============================
