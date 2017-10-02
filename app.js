@@ -33,5 +33,5 @@ function parse() {
             fileName = fileName.concat(".json");
         parser.saveResults(fileName);
     } else
-        parser.saveResults(fileName);
+        parser.saveResults();
 }
