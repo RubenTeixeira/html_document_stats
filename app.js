@@ -14,8 +14,8 @@ if (process.argv.length < 3) {
 /* Ensure protocol exists on the URL */
 const argv = process.argv;
 let host = process.argv[2];
-if (!host.includes("http://"))
-    host = "https://".concat(host);
+if (!host.includes("http"))
+    host = "http://".concat(host);
 
 /* Create HtmlInfo object and fetch content*/
 const parser = new HtmlMetaInfo(host);
