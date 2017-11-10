@@ -8,7 +8,7 @@ cd html_document_stats/
 node app.js HOST [FILENAME]
 ```
 
-## Descrição da solução
+## Descrição da Solução
 
 Sendo que um dos requisitos seria a utilização de ES6, utilizou-se o paradigma de programação orientada ao objecto, pelo
  que o modelo de domínio representativo das classes utilizadas se segue:
