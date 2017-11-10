@@ -1,11 +1,10 @@
 Documentação
 ==============================
-Esta solução, foi desenvolvida e testada utilizando Node.js v6.10.0.
-Para utilizar, descarregar o ficheiro challenge_accepted.tar.gz, descompactar e executar:
+Esta solução, foi desenvolvida e testada utilizando Node.js v6.10.0 para resolver um desafio técnico.
+Para utilizar, descarregar o zip do projeto, descompactar e executar:
 
 ```
-tar zxvf jscrambler_challenge_accepted.tar.gz
-cd jscrambler_challenge_accepted/
+cd html_document_stats/
 node app.js HOST [FILENAME]
 ```
 
@@ -40,7 +39,7 @@ chmod +x node_modules/.bin/mocha
 npm test
 ````
 
-Exercício Prático - Jscrambler
+Enunciado do Exercício
 ==============================
 
 Pretende-se que seja implementada uma CLI (Command Line Interface) em Node.js que
@@ -69,9 +68,3 @@ O resultado esperado vai além da funcionalidade, sendo avaliado aspectos críti
 * desempenho do código / escalabilidade
 * aspectos de segurança
 * qualidade do código
-
-## Entrega
-
-A entrega deve ser feita, enviando um arquivo `tar.gz` que contenha o
-repositório bem como qualquer outro elemento produzido e relevante para a
-avaliação da solução entregue.
